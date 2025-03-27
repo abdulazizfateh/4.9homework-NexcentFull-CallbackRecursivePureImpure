@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4.8 homework | Nexcent</title>
+    <link rel="stylesheet" href="./css/output.css">
+</head>
+
+<body>
+    <header class="bg-[#F5F7FA] fixed w-full top-0 left-0 z-30">
+        <div class="container">
+            <nav class="relative h-[64px] sm:h-[74px] lg:h-[84px] flex items-center justify-between">
+                <div>
+                    <a href="index.html"><img class="w-[120px] sm:w-[155px]" src="./assets/images/nexcent-logo.svg"
+                            alt="Nexcent Logo"></a>
+                </div>
+                <ul
+                    class="hidden absolute top-[50%] right-[50%] translate-x-[50%] -translate-y-[55%] lg:flex items-center gap-[26px] xl:gap-[50px]">
+                    <li><a href="#home"><span class="desc_small !text-[#18191F]">Home</span></a></li>
+                    <li><a href="#service"><span class="desc_small !text-[#18191F]">Service</span></a></li>
+                    <li><a href="#feature"><span class="desc_small !text-[#18191F]">Feature</span></a></li>
+                    <li><a href="#product"><span class="desc_small !text-[#18191F]">Product</span></a></li>
+                    <li><a href="#testimonial"><span class="desc_small !text-[#18191F]">Testimonial</span></a></li>
+                    <li><a href="#FAQ"><span class="desc_small !text-[#18191F]">FAQ</span></a></li>
+                </ul>
+                <div class="flex items-center gap-[24px]">
+                    <div class="hidden sm:flex items-center gap-[14px]">
+                        <button
+                            class="desc_small h-[36px] px-[16px] md:h-[40px] md:px-[20px] rounded-[6px] hover:bg-white border border-transparent hover:border-primary duration-200 ease-in-out !text-primary">Login</button>
+                        <button
+                            class="desc_small h-[36px] px-[16px] md:h-[40px] md:px-[20px] rounded-[6px] bg-primary hover:bg-green-700 duration-200 ease-in-out !text-white">Sign
+                            up</button>
+                    </div>
+                    <img class="lg:hidden" src="./assets/images/nav-menu.svg" alt="Menu Icon">
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="bg-[#F5F7FA]">
+            <div class="container">
+                <div
+                    class="hero_wrapper relative min-h-dvh md:min-h-[683px] pt-[94px] pb-[50px] md:pt-[120px] md:pb-[46px] lg:pt-[180px] lg:pb-[96px] flex flex-col items-center justify-between gap-[30px] sm:flex-row">
+                    <div class="order-2 sm:order-1 flex flex-col justify-center">
+                        <h1 class="title_big text-center md:text-left mb-[16px]">Lessons and insights <br> <span
+                                class="text-primary">from 8 years</span></h1>
+                        <p class="desc mb-[24px] text-center md:text-left sm:mb-[32px]">Where to grow your business as a
+                            photographer: site or social media?</p>
+                        <div class="flex items-center justify-center md:justify-start">
+                            <button
+                                class="desc !text-white !font-[I5] h-[40px] px-[24px] sm:h-[52px] sm:px-[32px] rounded-[4px] bg-primary border border-primary hover:bg-white hover:!text-primary duration-200 ease-in-out">Register
+                            </button>
+                        </div>
+                    </div>
+                    <div class="order-1 sm:order-2 flex items-center justify-center">
+                        <img src="./assets/images/hero-image.svg" alt="">
+                    </div>
+                    <div class="absolute bottom-[16px] right-[50%] translate-x-[50%] flex items-center gap-[8px]">
+                        <div class="cursor-pointer size-[10px] rounded-full bg-primary"></div>
+                        <div class="cursor-pointer size-[10px] rounded-full bg-primary opacity-[30%]"></div>
+                        <div class="cursor-pointer size-[10px] rounded-full bg-primary opacity-[30%]"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-[60px] lg:pt-[40px] lg:pb-[65px]">
+            <div class="container">
+                <div class="client_wrapper">
+                    <div class="mb-[30px] sm:mb-[41px]">
+                        <h2 class="title text-center mb-[8px]">Our Clients</h2>
+                        <p class="desc text-center">We have been working with some Fortune 500+
+                            clients</p>
+                    </div>
+                    <div class="flex items-center justify-between overflow-auto gap-[34px] pb-[24px] sm:pb-0">
+                        <img class="w-[38px] sm:w-[48px]" src="./assets/images/client-1.svg" alt="">
+                        <img class="w-[38px] sm:w-[48px]" src="./assets/images/client-2.svg" alt="">
+                        <img class="w-[38px] sm:w-[48px]" src="./assets/images/client-3.svg" alt="">
+                        <img class="w-[38px] sm:w-[48px]" src="./assets/images/client-4.svg" alt="">
+                        <img class="w-[38px] sm:w-[48px]" src="./assets/images/client-5.svg" alt="">
+                        <img class="w-[38px] sm:w-[48px]" src="./assets/images/client-6.svg" alt="">
+                        <img class="w-[38px] sm:w-[48px]" src="./assets/images/client-7.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mb-[42px]">
+            <div class="container">
+                <div class="system_wrapper">
+                    <div class="flex flex-col gap-[8px] mb-[16px]">
+                        <h2 class="title text-center sm:w-[70%] mx-auto lg:w-[45%]">Manage your entire community in a
+                            single system</h2>
+                        <p class="desc text-center">Who is Nextcent suitable for?</p>
+                    </div>
+                    <div class="grid grid-cols-1 gap-[30px] sm:grid-cols-3 lg:gap-[90px] xl:gap-[127.5px]">
+                        <div class="p-[16px] sm:p-[24px] rounded-[8px] shadow-[0px_2px_4px_0px_#ABBED133]">
+                            <div class="mb-[16px] flex justify-center">
+                                <img src="./assets/images/system-1.svg" alt="">
+                            </div>
+                            <div>
+                                <p
+                                    class="lg:w-[80%] mx-auto font-[I7] text-[18px] leading-[24px] text-center sm:text-[24px] sm:leading-[32px] md:text-[28px] md:leading-[36px] text-text-primary mb-[8px]">
+                                    Membership Organisations</p>
+                                <p class="desc_small text-center mx-auto min-[480px]:w-[70%] sm:w-full">Our membership
+                                    management software provides full automation of membership renewals
+                                    and payments</p>
+                            </div>
+                        </div>
+                        <div class="p-[16px] sm:p-[24px] rounded-[8px] shadow-[0px_2px_4px_0px_#ABBED133]">
+                            <div class="mb-[16px] flex justify-center">
+                                <img src="./assets/images/system-2.svg" alt="">
+                            </div>
+                            <div>
+                                <p
+                                    class="lg:w-[80%] mx-auto font-[I7] text-[18px] leading-[24px] text-center sm:text-[24px] sm:leading-[32px] md:text-[28px] md:leading-[36px] text-text-primary mb-[8px]">
+                                    National Associations</p>
+                                <p class="desc_small text-center mx-auto min-[480px]:w-[70%] sm:w-full">Our membership
+                                    management software provides full automation of membership renewals and payments</p>
+                            </div>
+                        </div>
+                        <div class="p-[16px] sm:p-[24px] rounded-[8px] shadow-[0px_2px_4px_0px_#ABBED133]">
+                            <div class="mb-[16px] flex justify-center">
+                                <img src="./assets/images/system-3.svg" alt="">
+                            </div>
+                            <div>
+                                <p
+                                    class="lg:w-[80%] mx-auto font-[I7] text-[18px] leading-[24px] text-center sm:text-[24px] sm:leading-[32px] md:text-[28px] md:leading-[36px] text-text-primary mb-[8px]">
+                                    Clubs And Groups</p>
+                                <p class="desc_small text-center mx-auto min-[480px]:w-[70%] sm:w-full">Our membership
+                                    management software provides full automation of membership renewals and payments</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pt-[52px] pb-[60px] md:pb-[80px] lg:pb-[100px]">
+            <div class="container">
+                <div
+                    class="spend_wrapper flex flex-col justify-center gap-[30px] lg:gap-[50px] md:flex-row sm:items-center">
+                    <div class="flex items-center justify-center md:flex-1/3">
+                        <img src="./assets/images/spend-imaeg.svg" alt="">
+                    </div>
+                    <div class="md:flex-1/2">
+                        <h2 class="title mb-[16px] text-center md:text-left min-[480px]:w-[80%] mx-auto md:mx-0">The
+                            unseen of spending three years at Pixelgrade</h2>
+                        <p
+                            class="desc_small mb-[24px] text-center md:text-left sm:mb-[32px] min-[480px]:w-[80%] mx-auto md:mx-0 md:w-[90%]">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed
+                            accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta.
+                            Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis
+                            massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.
+                        </p>
+                        <div class="flex justify-center md:justify-start">
+                            <button
+                                class="desc !text-white !font-[I5] h-[40px] px-[24px] sm:h-[52px] sm:px-[32px] rounded-[4px] bg-primary border border-primary hover:bg-white hover:!text-primary duration-200 ease-in-out">Learn
+                                More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-[64px] bg-[#F5F7FA]">
+            <div class="container">
+                <div class="local_wrapper grid grid-cols-1 gap-[30px] md:grid-cols-2 md:gap-[50px] lg:gap-[72px]">
+                    <div class="flex flex-col gap-[8px] md:justify-center">
+                        <h2 class="title text-center md:text-left">Helping a local <br><span
+                                class="text-primary">business reinvent itself</span></h2>
+                        <p class="desc !text-[#18191F] text-center md:text-left">We reached here with our hard work and
+                            dedication</p>
+                    </div>
+                    <div class="grid grid-cols-1 gap-[20px] min-[480px]:grid-cols-2 lg:gap-x-[30px] lg:gap-y-[40px]">
+                        <div class="flex flex-col gap-[4px] lg:flex-row lg:items-center lg:gap-[16px]">
+                            <div class="flex justify-center md:justify-start">
+                                <img src="./assets/images/local-users.svg" alt="">
+                            </div>
+                            <div class="flex flex-col gap-[2px]">
+                                <p
+                                    class="font-[I7] text-[18px] leading-[24px] text-center md:text-left sm:text-[24px] sm:leading-[32px] md:text-[28px] md:leading-[36px] text-text-primary">
+                                    2,245,341</p>
+                                <p class="desc text-center md:text-left">Members</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-col gap-[4px] lg:flex-row lg:items-center lg:gap-[16px]">
+                            <div class="flex justify-center md:justify-start">
+                                <img src="./assets/images/local-community.png" alt="">
+                            </div>
+                            <div class="flex flex-col gap-[2px]">
+                                <p
+                                    class="font-[I7] text-[18px] leading-[24px] text-center md:text-left sm:text-[24px] sm:leading-[32px] md:text-[28px] md:leading-[36px] text-text-primary">
+                                    46,328</p>
+                                <p class="desc text-center md:text-left">Clubs</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-col gap-[4px] lg:flex-row lg:items-center lg:gap-[16px]">
+                            <div class="flex justify-center md:justify-start">
+                                <img src="./assets/images/local-pointer.svg" alt="">
+                            </div>
+                            <div class="flex flex-col gap-[2px]">
+                                <p
+                                    class="font-[I7] text-[18px] leading-[24px] text-center md:text-left sm:text-[24px] sm:leading-[32px] md:text-[28px] md:leading-[36px] text-text-primary">
+                                    828,867</p>
+                                <p class="desc text-center md:text-left">Event Bookings</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-col gap-[4px] lg:flex-row lg:items-center lg:gap-[16px]">
+                            <div class="flex justify-center md:justify-start">
+                                <img src="./assets/images/local-handbag.svg" alt="">
+                            </div>
+                            <div class="flex flex-col gap-[2px]">
+                                <p
+                                    class="font-[I7] text-[18px] leading-[24px] text-center md:text-left sm:text-[24px] sm:leading-[32px] md:text-[28px] md:leading-[36px] text-text-primary">
+                                    1,926,436</p>
+                                <p class="desc text-center md:text-left">Payments</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pt-[48px] pb-[48px]">
+            <div class="container">
+                <div
+                    class="design_wrapper flex flex-col justify-center gap-[30px] lg:gap-[50px] md:flex-row sm:items-center">
+                    <div class="flex items-center justify-center md:flex-1/3">
+                        <img src="./assets/images/design-image.svg" alt="">
+                    </div>
+                    <div class="md:flex-1/2">
+                        <h2 class="title mb-[16px] text-center md:text-left min-[480px]:w-[80%] mx-auto md:mx-0">How to
+                            design your site footer like we did</h2>
+                        <p
+                            class="desc_small mb-[24px] text-center md:text-left sm:mb-[32px] min-[480px]:w-[80%] mx-auto md:mx-0 md:w-[90%]">
+                            Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt
+                            molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at
+                            libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta
+                            nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt.
+                            Integer in nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est,
+                            finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida.
+                        </p>
+                        <div class="flex justify-center md:justify-start">
+                            <button
+                                class="desc !text-white !font-[I5] h-[40px] px-[24px] sm:h-[52px] sm:px-[32px] rounded-[4px] bg-primary border border-primary hover:bg-white hover:!text-primary duration-200 ease-in-out">Learn
+                                More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-[32px] bg-[#F5F7FA]">
+            <div class="container">
+                <div class="customer_wrapper flex flex-col gap-[30px] md:flex-row md:gap-[50px] lg:gap-[78px]">
+                    <div class="flex items-center justify-center md:w-2/5 lg:w-auto">
+                        <img class="max-w-[326px]" src="./assets/images/customer-image.png" alt="">
+                    </div>
+                    <div class="md:w-3/5">
+                        <p class="desc w-[95%] md:mx-0 md:w-full mx-auto text-center md:text-left mb-[16px]">Maecenas
+                            dignissim justo eget
+                            nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum
+                            risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam
+                            in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula
+                            molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis
+                            tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse
+                            potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate
+                            odio neque, eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim finibus
+                            ac sit amet magna.</p>
+                        <p
+                            class="text-center md:text-left font-[I6] text-[16px] leading-[20px] text-primary sm:text-[20px] sm:leading-[28px] mb-[8px]">
+                            Tim Smith</p>
+                        <p class="desc text-center md:text-left !text-[#89939E] mb-[32px]">British Dragon Boat Racing
+                            Association</p>
+                        <div
+                            class="flex flex-col gap-[10px] min-[1120px]:flex-row min-[1120px]:justify-between min-[1120px]:gap-[32px]">
+                            <div
+                                class="flex items-center justify-start min-[480px]:justify-center md:justify-start gap-[34px] overflow-auto lg:overflow-visible pb-[20px] md:gap-[41px]">
+                                <img class="w-[38px] sm:w-[48px]" src="./assets/images/customer-1-blue.svg" alt="">
+                                <img class="w-[38px] sm:w-[48px]" src="./assets/images/client-2.svg" alt="">
+                                <img class="w-[38px] sm:w-[48px]" src="./assets/images/client-3.svg" alt="">
+                                <img class="w-[38px] sm:w-[48px]" src="./assets/images/client-4.svg" alt="">
+                                <img class="w-[38px] sm:w-[48px]" src="./assets/images/client-5.svg" alt="">
+                                <img class="w-[38px] lg:hidden sm:w-[48px]" src="./assets/images/client-6.svg" alt="">
+                            </div>
+                            <div class="flex justify-center pb-[15px] md:justify-start">
+                                <button class="flex items-center gap-[8px] min-w-max rounded-[6px]">
+                                    <p
+                                        class="font-[I6] text-[16px] leading-[20px] text-primary sm:text-[20px] sm:leading-[28px]">
+                                        Meet all customers</p>
+                                    <img src="./assets/images/arrow-right.svg" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pt-[48px] pb-[90px] sm:pb-[120px] md:pb-[240px] lg:pb-[174px]">
+            <div class="container">
+                <div class="caring_wrapper">
+                    <div class="flex flex-col gap-[8px]">
+                        <h2 class="title text-center">Caring is the new marketing</h2>
+                        <p
+                            class="desc text-center mb-[16px] min-[480px]:w-[80%] min-[480px]:mx-auto sm:w-[70%] lg:w-[55%]">
+                            The Nexcent blog is the best place to read about the latest membership insights, trends and
+                            more.
+                            See who's joining the community, read about how our community are increasing their
+                            membership
+                            income and lot's more.
+                        </p>
+                    </div>
+                    <div class="grid grid-cols-1 gap-y-[120px] min-[480px]:gap-y-[100px] md:grid-cols-3 gap-x-[24px]">
+                        <div class="flex items-center justify-center">
+                            <div class="relative">
+                                <img class="relative" src="./assets/images/caring-1.png" alt="">
+                                <div
+                                    class="absolute sm:top-[40%] sm:translate-y-[40%] md:top-[30%] lg:top-[40%] top-[55%] right-[50%] translate-y-[55%] translate-x-[50%] w-[85%] flex flex-col items-center bg-[#F5F7FA] rounded-[8px] gap-[16px] p-[10px] pb-[16px] sm:p-[16px] sm:pb-[28px]">
+                                    <p
+                                        class="font-[I6] text-[16px] leading-[20px] text-center text-text-secondary lg:text-[20px] lg:leading-[28px]">
+                                        Creating Streamlined Safeguarding Processes with OneRen</p>
+                                    <button class="flex items-center gap-[8px]">
+                                        <span
+                                            class="font-[I6] text-[16px] leading-[20px] text-primary sm:text-[20px] sm:leading-[28px]">Readmore</span>
+                                        <img src="./assets/images/arrow-right.svg" alt="">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-center">
+                            <div class="relative">
+                                <img class="relative" src="./assets/images/caring-2.png" alt="">
+                                <div
+                                    class="absolute sm:top-[40%] sm:translate-y-[40%] md:top-[30%] lg:top-[40%] top-[55%] right-[50%] translate-y-[55%] translate-x-[50%] w-[85%] flex flex-col items-center bg-[#F5F7FA] rounded-[8px] gap-[16px] p-[10px] pb-[16px] sm:p-[16px] sm:pb-[28px]">
+                                    <p
+                                        class="font-[I6] text-[16px] leading-[20px] text-center text-text-secondary lg:text-[20px] lg:leading-[28px]">
+                                        What are your safeguarding responsibilities and how can you manage them?</p>
+                                    <button class="flex items-center gap-[8px]">
+                                        <span
+                                            class="font-[I6] text-[16px] leading-[20px] text-primary sm:text-[20px] sm:leading-[28px]">Readmore</span>
+                                        <img src="./assets/images/arrow-right.svg" alt="">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-center">
+                            <div class="relative">
+                                <img class="relative" src="./assets/images/caring-3.png" alt="">
+                                <div
+                                    class="absolute sm:top-[40%] sm:translate-y-[40%] md:top-[30%] lg:top-[40%] top-[55%] right-[50%] translate-y-[55%] translate-x-[50%] w-[85%] flex flex-col items-center bg-[#F5F7FA] rounded-[8px] gap-[16px] p-[10px] pb-[16px] sm:p-[16px] sm:pb-[28px]">
+                                    <p
+                                        class="font-[I6] text-[16px] leading-[20px] text-center text-text-secondary lg:text-[20px] lg:leading-[28px]">
+                                        Revamping the Membership Model with Triathlon Australia</p>
+                                    <button class="flex items-center gap-[8px]">
+                                        <span
+                                            class="font-[I6] text-[16px] leading-[20px] text-primary sm:text-[20px] sm:leading-[28px]">Readmore</span>
+                                        <img src="./assets/images/arrow-right.svg" alt="">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-[32px] bg-[#F5F7FA]">
+            <h1 class="title_big !text-[#263238] mb-[32px] text-center sm:w-[80%] mx-auto lg:w-[60%]">Pellentesque
+                suscipit fringilla libero eu.</h1>
+            <button
+                class="mx-auto bg-primary h-[40px] px-[24px] flex items-center gap-[8px] sm:h-[52px] sm:px-[32px] rounded-[4px]">
+                <span class="desc !text-white !font-[I5]">Get a demo</span>
+                <img src="./assets/images/button-arrow-right.svg" alt="">
+            </button>
+        </section>
+    </main>
+    <footer class="bg-[#263238] pt-[45px] pb-[55px] sm:pt-[64px] sm:pb-[74px]">
+        <div class="container">
+            <div class="footer_wrapper grid grid-cols-1 gap-[30px] md:grid-cols-[4.4fr_1.6fr_1.6fr_2.55fr]">
+                <div>
+                    <div class="mb-[24px] sm:mb-[40px]">
+                        <img class="w-[120px] sm:w-[155px]" src="./assets/images/footer-nexcent-logo.svg" alt="">
+                    </div>
+                    <p class="desc_small !text-[#F5F7FA] mb-[8px]">Copyright © 2020 Nexcent ltd.</p>
+                    <p class="desc_small !text-[#F5F7FA] mb-[28px] sm:mb=[40px]">All rights reserved</p>
+                    <div class="flex items-center gap-[12px] sm:gap-[16px]">
+                        <div class="size-[32px] flex items-center justify-center bg-[#3c474c] rounded-full">
+                            <a href="#"><img src="./assets/images/footer-instagram.svg" alt=""></a>
+                        </div>
+                        <div class="size-[32px] flex items-center justify-center bg-[#3c474c] rounded-full">
+                            <a href="#"><img src="./assets/images/footer-net.svg" alt=""></a>
+                        </div>
+                        <div class="size-[32px] flex items-center justify-center bg-[#3c474c] rounded-full">
+                            <a href="#"><img src="./assets/images/footer-twitter.svg" alt=""></a>
+                        </div>
+                        <div class="size-[32px] flex items-center justify-center bg-[#3c474c] rounded-full">
+                            <a href="#"><img src="./assets/images/footer-youtube.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <p
+                        class="font-[I6] text-[16px] leading-[22px] text-white lg:text-[20px] lg:leading-[28px] mb-[16px] sm:mb-[24px]">
+                        Company</p>
+                    <ul class="flex flex-col gap-[8px] sm:gap-[12px]">
+                        <li><a class="desc_small !text-[#F5F7FA]" href="#">About us</a></li>
+                        <li><a class="desc_small !text-[#F5F7FA]" href="#">Blog</a></li>
+                        <li><a class="desc_small !text-[#F5F7FA]" href="#">Contact us</a></li>
+                        <li><a class="desc_small !text-[#F5F7FA]" href="#">Pricing</a></li>
+                        <li><a class="desc_small !text-[#F5F7FA]" href="#">Testimonials</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p
+                        class="font-[I6] text-[16px] leading-[22px] text-white lg:text-[20px] lg:leading-[28px] mb-[16px] sm:mb-[24px]">
+                        Support</p>
+                    <ul class="flex flex-col gap-[8px] sm:gap-[12px]">
+                        <li><a class="desc_small !text-[#F5F7FA]" href="#">Help center</a></li>
+                        <li><a class="desc_small !text-[#F5F7FA]" href="#">Terms of service</a></li>
+                        <li><a class="desc_small !text-[#F5F7FA]" href="#">Legal</a></li>
+                        <li><a class="desc_small !text-[#F5F7FA]" href="#">Privacy policy</a></li>
+                        <li><a class="desc_small !text-[#F5F7FA]" href="#">Status</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p
+                        class="font-[I6] text-[16px] leading-[22px] text-white lg:text-[20px] lg:leading-[28px] mb-[16px] sm:mb-[24px]">
+                        Stay up to date</p>
+                    <form class="relative w-[200px] md:w-full" action="index.html">
+                        <input
+                            class="desc_small w-full h-[40px] rounded-[8px] indent-[12.5px] !text-[#D9DBE1] bg-[#3c474c] outline-none"
+                            type="email" placeholder="Your email address" required>
+                        <button class="absolute top-[50%] right-[7%] -translate-y-[50%]">
+                            <img src="./assets/images/footer-send.svg" alt="">
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
